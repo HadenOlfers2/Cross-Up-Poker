@@ -7,7 +7,6 @@
 //
 
 import Foundation
-import UIKit
 
 struct Card {
     let suit: Suit

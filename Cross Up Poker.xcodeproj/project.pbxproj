@@ -13,6 +13,7 @@
 		243D21EF226F5B3A005D5921 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 243D21EE226F5B3A005D5921 /* Assets.xcassets */; };
 		243D21F2226F5B3A005D5921 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 243D21F0226F5B3A005D5921 /* LaunchScreen.storyboard */; };
 		243D21FA226F61F8005D5921 /* Card .swift in Sources */ = {isa = PBXBuildFile; fileRef = 243D21F9226F61F8005D5921 /* Card .swift */; };
+		246F8B2522788F5F0022C180 /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246F8B2422788F5F0022C180 /* Deck.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		243D21F1226F5B3A005D5921 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		243D21F3226F5B3A005D5921 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		243D21F9226F61F8005D5921 /* Card .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Card .swift"; sourceTree = "<group>"; };
+		246F8B2422788F5F0022C180 /* Deck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deck.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				243D21E7226F5B38005D5921 /* AppDelegate.swift */,
 				243D21E9226F5B38005D5921 /* ViewController.swift */,
+				246F8B2422788F5F0022C180 /* Deck.swift */,
 				243D21F9226F61F8005D5921 /* Card .swift */,
 				243D21EB226F5B38005D5921 /* Main.storyboard */,
 				243D21EE226F5B3A005D5921 /* Assets.xcassets */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				246F8B2522788F5F0022C180 /* Deck.swift in Sources */,
 				243D21EA226F5B38005D5921 /* ViewController.swift in Sources */,
 				243D21E8226F5B38005D5921 /* AppDelegate.swift in Sources */,
 				243D21FA226F61F8005D5921 /* Card .swift in Sources */,

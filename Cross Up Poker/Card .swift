@@ -8,12 +8,22 @@
 
 import Foundation
 
-class Card {
-    let suit: String
-    let number: String
-    
-    init(suit: String, number: String){
-        self.suit = suit
-        self.number = number
+    struct Card {
+    let suit: Suit
+    var value: Value
     }
-}
+
+    enum Suit {
+        case clubs
+        case spades
+        case diamonds
+        case hearts
+    }
+
+    enum Value {
+        case ace,two,three,four,five,six,seven,eight,nine,ten,jack,queen,king
+    }
+
+
+
+

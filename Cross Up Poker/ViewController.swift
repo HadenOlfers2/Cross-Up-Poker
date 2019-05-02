@@ -10,10 +10,8 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
+    @IBOutlet weak var Stand: UICollectionView!
+    
     @IBOutlet weak var twoclubs: UIImageView!
     @IBOutlet weak var twodiamonds: UIImageView!
     @IBOutlet weak var twohearts: UIImageView!
@@ -66,6 +64,11 @@ class ViewController: UIViewController {
     @IBOutlet weak var Acediamonds: UIImageView!
     @IBOutlet weak var Acehearts: UIImageView!
     @IBOutlet weak var Acespades: UIImageView!
-
+    
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        //shuffleCards()
+    }
     
 }

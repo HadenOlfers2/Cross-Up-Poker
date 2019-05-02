@@ -7,11 +7,13 @@
 //
 
 import Foundation
+import UIKit
 
 struct Card {
+    var Img: UIImage?
     let suit: Suit
     var value: Value
-    }
+}
 
     enum Suit {
         case clubs

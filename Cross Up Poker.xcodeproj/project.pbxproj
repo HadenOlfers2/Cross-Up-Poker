@@ -62,8 +62,8 @@
 			children = (
 				243D21E7226F5B38005D5921 /* AppDelegate.swift */,
 				243D21E9226F5B38005D5921 /* ViewController.swift */,
-				246F8B2422788F5F0022C180 /* Deck.swift */,
 				243D21F9226F61F8005D5921 /* Card .swift */,
+				246F8B2422788F5F0022C180 /* Deck.swift */,
 				246F8B2622789D8E0022C180 /* Stand.swift */,
 				243D21EB226F5B38005D5921 /* Main.storyboard */,
 				243D21EE226F5B3A005D5921 /* Assets.xcassets */,

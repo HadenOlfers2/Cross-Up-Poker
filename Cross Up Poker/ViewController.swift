@@ -11,6 +11,7 @@ import UIKit
 class ViewController: UIViewController {
     
     @IBOutlet weak var Stand: UICollectionView!
+    @IBOutlet weak var Deck: UICollectionView!
     
     @IBOutlet weak var twoclubs: UIImageView!
     @IBOutlet weak var twodiamonds: UIImageView!

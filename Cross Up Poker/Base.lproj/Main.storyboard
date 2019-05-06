@@ -408,7 +408,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="75B-Bz-CjS">
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="75B-Bz-CjS" customClass="DeckCollectionController">
                                 <rect key="frame" x="337" y="115" width="57" height="79"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -646,6 +646,11 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="4Ju-w6-rCP"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="75B-Bz-CjS"/>
+                            </mask>
+                        </variation>
                     </view>
                     <connections>
                         <outlet property="Deck" destination="75B-Bz-CjS" id="Ic2-hm-Wau"/>

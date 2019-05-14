@@ -63,6 +63,33 @@ class ViewController: UIViewController {
     @IBOutlet weak var Acehearts: UIImageView!
     @IBOutlet weak var Acespades: UIImageView!
     
+    @IBOutlet weak var OneSix: UIButton!
+    @IBOutlet weak var OneSeven: UIButton!
+    @IBOutlet weak var OneEight: UIButton!
+    @IBOutlet weak var OneNine: UIButton!
+    @IBOutlet weak var OneTen: UIButton!
+    @IBOutlet weak var TwoSix: UIButton!
+    @IBOutlet weak var TwoSeven: UIButton!
+    @IBOutlet weak var TwoEight: UIButton!
+    @IBOutlet weak var TwoNine: UIButton!
+    @IBOutlet weak var TwoTen: UIButton!
+    @IBOutlet weak var ThreeSix: UIButton!
+    @IBOutlet weak var ThreeSeven: UIButton!
+    @IBOutlet weak var ThreeEight: UIButton!
+    @IBOutlet weak var ThreeNine: UIButton!
+    @IBOutlet weak var ThreeTen: UIButton!
+    @IBOutlet weak var FourSix: UIButton!
+    @IBOutlet weak var FourSeven: UIButton!
+    @IBOutlet weak var FourEight: UIButton!
+    @IBOutlet weak var FourNine: UIButton!
+    @IBOutlet weak var FourTen: UIButton!
+    @IBOutlet weak var FiveSix: UIButton!
+    @IBOutlet weak var FiveSeven: UIButton!
+    @IBOutlet weak var FiveEight: UIButton!
+    @IBOutlet weak var FiveNine: UIButton!
+    @IBOutlet weak var FiveTen: UIButton!
+
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()

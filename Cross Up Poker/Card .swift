@@ -12,19 +12,15 @@ import UIKit
 struct Card {
     var Img: UIImage?
     let suit: Suit
-    var value: Value
+    var value: Int
 }
 
-    enum Suit {
-        case clubs
-        case spades
-        case diamonds
-        case hearts
-    }
-
-    enum Value {
-        case ace,two,three,four,five,six,seven,eight,nine,ten,jack,queen,king
-    }
+enum Suit {
+    case clubs
+    case spades
+    case diamonds
+    case hearts
+}
 
 let Deck = [twoClubs,twoDiamonds,twoHearts,twoSpades,threeClubs,threeDiamonds,threeHearts,threeSpades,fourClubs,FourDiamonds,fourHearts,fourSpades,FiveClubs,FiveDiamonds,FiveHearts,FiveSpades,SixClubs,SixDiamonds,SixHearts,SixSpades,SevenClubs,SevenDiamonds,SevenHearts,SevenSpades,EightClubs,EightDiamonds,EightHearts,EightSpades,NineClubs,Ninediamonds,NineHearts,NineSpades,TenClubs,TenDiamonds,TenHearts,TenSpades,JackClubs,JackDiamonds,JackHearts,JackSpades,QueenClubs,QueenDiamonds,QueenHearts,QueenSpades,KingClubs,KingDiamonds,KingHearts,KingSpades,AceClubs,AceDiamonds,AceHearts,AceSpades]
 

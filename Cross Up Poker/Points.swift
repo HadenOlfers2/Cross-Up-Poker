@@ -19,7 +19,6 @@ class Points
         {
             //Evaluate
             total = total + getHandValue(cards: row)
-            print(getHandValue(cards: row))
         }
         
         var column: [Card] = []
@@ -34,7 +33,6 @@ class Points
             }
             //Evaluate
             total = total + getHandValue(cards: column)
-            print(getHandValue(cards: column))
         }
         
         return total
@@ -139,8 +137,6 @@ class Points
             
             if (currentGreatest > greatest) { greatest = currentGreatest }
         }
-        print("\(values) identical cards: \(greatest)")
-        
         return greatest+1 //I dunno, they all seemed to be off by 1 so i incremented
     }
     

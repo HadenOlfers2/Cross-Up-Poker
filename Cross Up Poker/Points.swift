@@ -23,7 +23,6 @@ class Points
         
         var column: [Card] = []
         
-        //column.append(cards[j][i])
         //Iterate through the columns
         for i in 0...4
         {
@@ -33,8 +32,12 @@ class Points
             }
             //Evaluate
             total = total + getHandValue(cards: column)
+            column = []
         }
         
+        // 4 3 4
+        // 3 6 5
+        // 5 7 6
         return total
     }
     
@@ -66,7 +69,7 @@ class Points
             return 9
         }
         
-        let sortedValues: [Int] = sortHand(cards: cards, values: values)
+        var sortedValues: [Int] = sortHand(cards: cards, values: values)
         
         //Hand is a straight flush
         if (sameSuits && isConsecutive(values: sortedValues))
@@ -137,7 +140,8 @@ class Points
             
             if (currentGreatest > greatest) { greatest = currentGreatest }
         }
-        return greatest+1 //I dunno, they all seemed to be off by 1 so i incremented
+        
+        return greatest+1
     }
     
     //Returns a sorted VALUES array
@@ -165,9 +169,9 @@ class Points
     //Takes a SORTED array of values and determines if it is consecutive
     func isConsecutive(values: [Int]) -> Bool
     {
-        for i in 1...values.count
+        for i in 0...3
         {
-            if (values[0] != values[i]-1)
+            if (values[i] != values[i+1]-1)
             {
                 return false
             }

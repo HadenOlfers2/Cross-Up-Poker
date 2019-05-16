@@ -10,18 +10,18 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    @IBOutlet weak var twoclubs: UIImageView!
-    @IBOutlet weak var twodiamonds: UIImageView!
-    @IBOutlet weak var twohearts: UIImageView!
-    @IBOutlet weak var twospades: UIImageView!
-    @IBOutlet weak var threeclubs: UIImageView!
-    @IBOutlet weak var threediamonds: UIImageView!
-    @IBOutlet weak var threehearts: UIImageView!
-    @IBOutlet weak var threespades: UIImageView!
-    @IBOutlet weak var fourclubs: UIImageView!
+    @IBOutlet weak var Twoclubs: UIImageView!
+    @IBOutlet weak var Twodiamonds: UIImageView!
+    @IBOutlet weak var Twohearts: UIImageView!
+    @IBOutlet weak var Twospades: UIImageView!
+    @IBOutlet weak var Threeclubs: UIImageView!
+    @IBOutlet weak var Threediamonds: UIImageView!
+    @IBOutlet weak var Threehearts: UIImageView!
+    @IBOutlet weak var Threespades: UIImageView!
+    @IBOutlet weak var Fourclubs: UIImageView!
     @IBOutlet weak var Fourdiamonds: UIImageView!
-    @IBOutlet weak var fourhearts: UIImageView!
-    @IBOutlet weak var fourspades: UIImageView!
+    @IBOutlet weak var Fourhearts: UIImageView!
+    @IBOutlet weak var Fourspades: UIImageView!
     @IBOutlet weak var Fiveclubs: UIImageView!
     @IBOutlet weak var Fivediamonds: UIImageView!
     @IBOutlet weak var Fivehearts: UIImageView!

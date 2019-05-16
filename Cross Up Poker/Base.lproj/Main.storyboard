@@ -661,8 +661,8 @@
                         <outlet property="FourTen" destination="6bV-bw-Tme" id="qfy-Ak-fba"/>
                         <outlet property="Fourclubs" destination="97m-KQ-pt6" id="PGC-qE-KWs"/>
                         <outlet property="Fourdiamonds" destination="Kny-S0-J8s" id="l2Y-Y2-Kid"/>
-                        <outlet property="Fourhearts" destination="9hu-La-hQB" id="cW7-kd-dGO"/>
-                        <outlet property="Fourspades" destination="Kny-S0-J8s" id="oDI-Y8-YcQ"/>
+                        <outlet property="Fourhearts" destination="Q36-f6-m0f" id="WUH-cd-rfD"/>
+                        <outlet property="Fourspades" destination="9hu-La-hQB" id="01J-0N-aoK"/>
                         <outlet property="Jackclubs" destination="FMq-TG-LWt" id="Gr7-7m-3Ju"/>
                         <outlet property="Jackdiamonds" destination="6xA-Bc-Uw9" id="rhH-WU-xck"/>
                         <outlet property="Jackhearts" destination="zSy-6Y-r1v" id="ysP-5M-Rbz"/>

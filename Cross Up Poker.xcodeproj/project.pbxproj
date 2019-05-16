@@ -68,13 +68,13 @@
 				243D21E7226F5B38005D5921 /* AppDelegate.swift */,
 				243D21E9226F5B38005D5921 /* ViewController.swift */,
 				243D21F9226F61F8005D5921 /* Card .swift */,
+				2B27476E228DA8A500D9AA48 /* Deck.swift */,
+				2B4B32182280745D0033A4EB /* Points.swift */,
+				2B274770228DAEEB00D9AA48 /* CPU.swift */,
 				243D21EB226F5B38005D5921 /* Main.storyboard */,
 				243D21EE226F5B3A005D5921 /* Assets.xcassets */,
 				243D21F0226F5B3A005D5921 /* LaunchScreen.storyboard */,
 				243D21F3226F5B3A005D5921 /* Info.plist */,
-				2B4B32182280745D0033A4EB /* Points.swift */,
-				2B27476E228DA8A500D9AA48 /* Deck.swift */,
-				2B274770228DAEEB00D9AA48 /* CPU.swift */,
 			);
 			path = "Cross Up Poker";
 			sourceTree = "<group>";

@@ -659,7 +659,10 @@
                         <outlet property="FourSeven" destination="DW3-5K-MTG" id="oe0-UT-Ip9"/>
                         <outlet property="FourSix" destination="ycD-Xe-YCd" id="Dc4-Pm-Z55"/>
                         <outlet property="FourTen" destination="6bV-bw-Tme" id="qfy-Ak-fba"/>
+                        <outlet property="Fourclubs" destination="97m-KQ-pt6" id="PGC-qE-KWs"/>
                         <outlet property="Fourdiamonds" destination="Kny-S0-J8s" id="l2Y-Y2-Kid"/>
+                        <outlet property="Fourhearts" destination="9hu-La-hQB" id="cW7-kd-dGO"/>
+                        <outlet property="Fourspades" destination="Kny-S0-J8s" id="oDI-Y8-YcQ"/>
                         <outlet property="Jackclubs" destination="FMq-TG-LWt" id="Gr7-7m-3Ju"/>
                         <outlet property="Jackdiamonds" destination="6xA-Bc-Uw9" id="rhH-WU-xck"/>
                         <outlet property="Jackhearts" destination="zSy-6Y-r1v" id="ysP-5M-Rbz"/>
@@ -698,11 +701,19 @@
                         <outlet property="ThreeSeven" destination="M9G-QL-CSv" id="hFl-Ev-vtp"/>
                         <outlet property="ThreeSix" destination="W5a-ua-7J9" id="pLc-L7-ixT"/>
                         <outlet property="ThreeTen" destination="5bQ-hc-Wal" id="BLd-K9-XOj"/>
+                        <outlet property="Threeclubs" destination="0mG-db-g9q" id="bqO-tH-EKP"/>
+                        <outlet property="Threediamonds" destination="yUh-QC-QX5" id="vSI-fk-YM6"/>
+                        <outlet property="Threehearts" destination="Rg9-B7-b4V" id="0ET-jT-93j"/>
+                        <outlet property="Threespades" destination="bWF-Mc-qNZ" id="QGW-ed-ifx"/>
                         <outlet property="TwoEight" destination="va8-62-dsb" id="5YN-ip-2Rf"/>
                         <outlet property="TwoNine" destination="24d-21-ysF" id="CYL-ll-mnf"/>
                         <outlet property="TwoSeven" destination="yRO-bL-t4a" id="lM3-LE-e8g"/>
                         <outlet property="TwoSix" destination="U9H-ay-uKU" id="Js4-KI-jBB"/>
                         <outlet property="TwoTen" destination="RAJ-qR-T9l" id="SgW-Ag-ET5"/>
+                        <outlet property="Twoclubs" destination="WJh-Do-uUf" id="VIu-yu-yQd"/>
+                        <outlet property="Twodiamonds" destination="hC8-iD-5MU" id="ujc-uM-BDJ"/>
+                        <outlet property="Twohearts" destination="upf-0X-71A" id="dfc-Qa-EKx"/>
+                        <outlet property="Twospades" destination="vIJ-3k-k2W" id="fmj-WB-YFd"/>
                         <outlet property="fourclubs" destination="97m-KQ-pt6" id="m1c-97-G4V"/>
                         <outlet property="fourhearts" destination="Q36-f6-m0f" id="Csd-Do-m2r"/>
                         <outlet property="fourspades" destination="9hu-La-hQB" id="mRw-kY-51o"/>

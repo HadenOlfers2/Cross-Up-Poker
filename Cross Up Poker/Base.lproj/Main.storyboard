@@ -714,17 +714,6 @@
                         <outlet property="Twodiamonds" destination="hC8-iD-5MU" id="ujc-uM-BDJ"/>
                         <outlet property="Twohearts" destination="upf-0X-71A" id="dfc-Qa-EKx"/>
                         <outlet property="Twospades" destination="vIJ-3k-k2W" id="fmj-WB-YFd"/>
-                        <outlet property="fourclubs" destination="97m-KQ-pt6" id="m1c-97-G4V"/>
-                        <outlet property="fourhearts" destination="Q36-f6-m0f" id="Csd-Do-m2r"/>
-                        <outlet property="fourspades" destination="9hu-La-hQB" id="mRw-kY-51o"/>
-                        <outlet property="threeclubs" destination="0mG-db-g9q" id="bpI-iK-HT6"/>
-                        <outlet property="threediamonds" destination="yUh-QC-QX5" id="5kF-sh-XnB"/>
-                        <outlet property="threehearts" destination="Rg9-B7-b4V" id="8Ah-hv-TMO"/>
-                        <outlet property="threespades" destination="bWF-Mc-qNZ" id="d15-zm-nBu"/>
-                        <outlet property="twoclubs" destination="WJh-Do-uUf" id="gJg-LS-fVE"/>
-                        <outlet property="twodiamonds" destination="hC8-iD-5MU" id="AKN-Qf-E6B"/>
-                        <outlet property="twohearts" destination="upf-0X-71A" id="eAX-7E-3I1"/>
-                        <outlet property="twospades" destination="vIJ-3k-k2W" id="EH9-kx-9cG"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5GS-I7-5Nz" userLabel="First Responder" sceneMemberID="firstResponder"/>

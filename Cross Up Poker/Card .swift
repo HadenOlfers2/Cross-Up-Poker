@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-struct Card: Equatable
+struct Card: Equatable, CustomStringConvertible
 {
     var Img: UIImage?
     let suit: Suit
@@ -19,6 +19,11 @@ struct Card: Equatable
     {
         return (lhs.suit == rhs.suit) && (lhs.value == rhs.value)
     }
+    
+    public var description: String
+    {
+        return String(value)
+    }
 }
 
 enum Suit
@@ -27,32 +32,4 @@ enum Suit
     case spades
     case diamonds
     case hearts
-}
-
-var deck: [Card] = generateDeck()
-let numStrings = ["Ace", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten", "Jack", "Queen", "King"]
-
-func generateDeck() -> [Card]
-{
-    var deck: [Card] = []
-    for i in 1...13
-    {
-        deck.append(Card(Img: UIImage.self(named: numStrings[i-1] + "clubs"), suit: .clubs, value: i))
-    }
-    
-    for i in 1...13
-    {
-        deck.append(Card(Img: UIImage.self(named: numStrings[i-1] + "spades"), suit: .spades, value: i))
-    }
-    
-    for i in 1...13
-    {
-        deck.append(Card(Img: UIImage.self(named: numStrings[i-1] + "hearts"), suit: .hearts, value: i))
-    }
-    
-    for i in 1...13
-    {
-        deck.append(Card(Img: UIImage.self(named: numStrings[i-1] + "diamonds"), suit: .diamonds, value: i))
-    }
-    return deck
 }

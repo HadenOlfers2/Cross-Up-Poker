@@ -1,354 +1,365 @@
 // !$*UTF8*$!
 {
-    archiveVersion = 1;
-    classes = {
-    };
-    objectVersion = 50;
-    objects = {
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
 
 /* Begin PBXBuildFile section */
-        243D21E8226F5B38005D5921 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243D21E7226F5B38005D5921 /* AppDelegate.swift */; };
-        243D21EA226F5B38005D5921 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243D21E9226F5B38005D5921 /* ViewController.swift */; };
-        243D21ED226F5B38005D5921 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 243D21EB226F5B38005D5921 /* Main.storyboard */; };
-        243D21EF226F5B3A005D5921 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 243D21EE226F5B3A005D5921 /* Assets.xcassets */; };
-        243D21F2226F5B3A005D5921 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 243D21F0226F5B3A005D5921 /* LaunchScreen.storyboard */; };
-        243D21FA226F61F8005D5921 /* Card .swift in Sources */ = {isa = PBXBuildFile; fileRef = 243D21F9226F61F8005D5921 /* Card .swift */; };
-        246F8B2522788F5F0022C180 /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246F8B2422788F5F0022C180 /* Deck.swift */; };
-        246F8B2722789D8E0022C180 /* Stand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246F8B2622789D8E0022C180 /* Stand.swift */; };
-        2B4B32192280745D0033A4EB /* Points.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4B32182280745D0033A4EB /* Points.swift */; };
+		243D21E8226F5B38005D5921 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243D21E7226F5B38005D5921 /* AppDelegate.swift */; };
+		243D21EA226F5B38005D5921 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243D21E9226F5B38005D5921 /* ViewController.swift */; };
+		243D21ED226F5B38005D5921 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 243D21EB226F5B38005D5921 /* Main.storyboard */; };
+		243D21EF226F5B3A005D5921 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 243D21EE226F5B3A005D5921 /* Assets.xcassets */; };
+		243D21F2226F5B3A005D5921 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 243D21F0226F5B3A005D5921 /* LaunchScreen.storyboard */; };
+		243D21FA226F61F8005D5921 /* Card .swift in Sources */ = {isa = PBXBuildFile; fileRef = 243D21F9226F61F8005D5921 /* Card .swift */; };
+		246F8B2722789D8E0022C180 /* Stand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246F8B2622789D8E0022C180 /* Stand.swift */; };
+		2B27476F228DA8A500D9AA48 /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B27476E228DA8A500D9AA48 /* Deck.swift */; };
+		2B4B32192280745D0033A4EB /* Points.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4B32182280745D0033A4EB /* Points.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-        243D21E4226F5B38005D5921 /* Cross Up Poker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cross Up Poker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-        243D21E7226F5B38005D5921 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-        243D21E9226F5B38005D5921 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-        243D21EC226F5B38005D5921 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-        243D21EE226F5B3A005D5921 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-        243D21F1226F5B3A005D5921 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-        243D21F3226F5B3A005D5921 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-        243D21F9226F61F8005D5921 /* Card .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Card .swift"; sourceTree = "<group>"; };
-        246F8B2422788F5F0022C180 /* Deck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deck.swift; sourceTree = "<group>"; };
-        246F8B2622789D8E0022C180 /* Stand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stand.swift; sourceTree = "<group>"; };
-        2B4B32182280745D0033A4EB /* Points.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Points.swift; sourceTree = "<group>"; };
+		243D21E4226F5B38005D5921 /* Cross Up Poker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cross Up Poker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		243D21E7226F5B38005D5921 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		243D21E9226F5B38005D5921 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		243D21EC226F5B38005D5921 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		243D21EE226F5B3A005D5921 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		243D21F1226F5B3A005D5921 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		243D21F3226F5B3A005D5921 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		243D21F9226F61F8005D5921 /* Card .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Card .swift"; sourceTree = "<group>"; };
+		246F8B2622789D8E0022C180 /* Stand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stand.swift; sourceTree = "<group>"; };
+		2B27476E228DA8A500D9AA48 /* Deck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deck.swift; sourceTree = "<group>"; };
+		2B4B32182280745D0033A4EB /* Points.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Points.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-        243D21E1226F5B38005D5921 /* Frameworks */ = {
-            isa = PBXFrameworksBuildPhase;
-            buildActionMask = 2147483647;
-            files = (
-            );
-            runOnlyForDeploymentPostprocessing = 0;
-        };
+		243D21E1226F5B38005D5921 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-        243D21DB226F5B38005D5921 = {
-            isa = PBXGroup;
-            children = (
-                243D21E6226F5B38005D5921 /* Cross Up Poker */,
-                243D21E5226F5B38005D5921 /* Products */,
-            );
-            sourceTree = "<group>";
-        };
-        243D21E5226F5B38005D5921 /* Products */ = {
-            isa = PBXGroup;
-            children = (
-                243D21E4226F5B38005D5921 /* Cross Up Poker.app */,
-            );
-            name = Products;
-            sourceTree = "<group>";
-        };
-        243D21E6226F5B38005D5921 /* Cross Up Poker */ = {
-            isa = PBXGroup;
-            children = (
-                243D21E7226F5B38005D5921 /* AppDelegate.swift */,
-                243D21E9226F5B38005D5921 /* ViewController.swift */,
-                243D21F9226F61F8005D5921 /* Card .swift */,
-                243D21EB226F5B38005D5921 /* Main.storyboard */,
-                243D21EE226F5B3A005D5921 /* Assets.xcassets */,
-                243D21F0226F5B3A005D5921 /* LaunchScreen.storyboard */,
-                243D21F3226F5B3A005D5921 /* Info.plist */,
-                2B4B32182280745D0033A4EB /* Points.swift */,
-            );
-            path = "Cross Up Poker";
-            sourceTree = "<group>";
-        };
+		243D21DB226F5B38005D5921 = {
+			isa = PBXGroup;
+			children = (
+				243D21E6226F5B38005D5921 /* Cross Up Poker */,
+				243D21E5226F5B38005D5921 /* Products */,
+				2B27476D228DA0E900D9AA48 /* Recovered References */,
+			);
+			sourceTree = "<group>";
+		};
+		243D21E5226F5B38005D5921 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				243D21E4226F5B38005D5921 /* Cross Up Poker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		243D21E6226F5B38005D5921 /* Cross Up Poker */ = {
+			isa = PBXGroup;
+			children = (
+				243D21E7226F5B38005D5921 /* AppDelegate.swift */,
+				243D21E9226F5B38005D5921 /* ViewController.swift */,
+				243D21F9226F61F8005D5921 /* Card .swift */,
+				243D21EB226F5B38005D5921 /* Main.storyboard */,
+				243D21EE226F5B3A005D5921 /* Assets.xcassets */,
+				243D21F0226F5B3A005D5921 /* LaunchScreen.storyboard */,
+				243D21F3226F5B3A005D5921 /* Info.plist */,
+				2B4B32182280745D0033A4EB /* Points.swift */,
+				2B27476E228DA8A500D9AA48 /* Deck.swift */,
+			);
+			path = "Cross Up Poker";
+			sourceTree = "<group>";
+		};
+		2B27476D228DA0E900D9AA48 /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				246F8B2622789D8E0022C180 /* Stand.swift */,
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-        243D21E3226F5B38005D5921 /* Cross Up Poker */ = {
-            isa = PBXNativeTarget;
-            buildConfigurationList = 243D21F6226F5B3A005D5921 /* Build configuration list for PBXNativeTarget "Cross Up Poker" */;
-            buildPhases = (
-                243D21E0226F5B38005D5921 /* Sources */,
-                243D21E1226F5B38005D5921 /* Frameworks */,
-                243D21E2226F5B38005D5921 /* Resources */,
-            );
-            buildRules = (
-            );
-            dependencies = (
-            );
-            name = "Cross Up Poker";
-            productName = "Cross Up Poker";
-            productReference = 243D21E4226F5B38005D5921 /* Cross Up Poker.app */;
-            productType = "com.apple.product-type.application";
-        };
+		243D21E3226F5B38005D5921 /* Cross Up Poker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 243D21F6226F5B3A005D5921 /* Build configuration list for PBXNativeTarget "Cross Up Poker" */;
+			buildPhases = (
+				243D21E0226F5B38005D5921 /* Sources */,
+				243D21E1226F5B38005D5921 /* Frameworks */,
+				243D21E2226F5B38005D5921 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cross Up Poker";
+			productName = "Cross Up Poker";
+			productReference = 243D21E4226F5B38005D5921 /* Cross Up Poker.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-        243D21DC226F5B38005D5921 /* Project object */ = {
-            isa = PBXProject;
-            attributes = {
-                LastSwiftUpdateCheck = 1010;
-                LastUpgradeCheck = 1010;
-                ORGANIZATIONNAME = "Olfers, Haden W";
-                TargetAttributes = {
-                    243D21E3226F5B38005D5921 = {
-                        CreatedOnToolsVersion = 10.1;
-                    };
-                };
-            };
-            buildConfigurationList = 243D21DF226F5B38005D5921 /* Build configuration list for PBXProject "Cross Up Poker" */;
-            compatibilityVersion = "Xcode 9.3";
-            developmentRegion = en;
-            hasScannedForEncodings = 0;
-            knownRegions = (
-                en,
-                Base,
-            );
-            mainGroup = 243D21DB226F5B38005D5921;
-            productRefGroup = 243D21E5226F5B38005D5921 /* Products */;
-            projectDirPath = "";
-            projectRoot = "";
-            targets = (
-                243D21E3226F5B38005D5921 /* Cross Up Poker */,
-            );
-        };
+		243D21DC226F5B38005D5921 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Olfers, Haden W";
+				TargetAttributes = {
+					243D21E3226F5B38005D5921 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 243D21DF226F5B38005D5921 /* Build configuration list for PBXProject "Cross Up Poker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 243D21DB226F5B38005D5921;
+			productRefGroup = 243D21E5226F5B38005D5921 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				243D21E3226F5B38005D5921 /* Cross Up Poker */,
+			);
+		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-        243D21E2226F5B38005D5921 /* Resources */ = {
-            isa = PBXResourcesBuildPhase;
-            buildActionMask = 2147483647;
-            files = (
-                243D21F2226F5B3A005D5921 /* LaunchScreen.storyboard in Resources */,
-                243D21EF226F5B3A005D5921 /* Assets.xcassets in Resources */,
-                243D21ED226F5B38005D5921 /* Main.storyboard in Resources */,
-            );
-            runOnlyForDeploymentPostprocessing = 0;
-        };
+		243D21E2226F5B38005D5921 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				243D21F2226F5B3A005D5921 /* LaunchScreen.storyboard in Resources */,
+				243D21EF226F5B3A005D5921 /* Assets.xcassets in Resources */,
+				243D21ED226F5B38005D5921 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-        243D21E0226F5B38005D5921 /* Sources */ = {
-            isa = PBXSourcesBuildPhase;
-            buildActionMask = 2147483647;
-            files = (
-                243D21EA226F5B38005D5921 /* ViewController.swift in Sources */,
-                2B4B32192280745D0033A4EB /* Points.swift in Sources */,
-                246F8B2722789D8E0022C180 /* Stand.swift in Sources */,
-                243D21E8226F5B38005D5921 /* AppDelegate.swift in Sources */,
-                243D21FA226F61F8005D5921 /* Card .swift in Sources */,
-            );
-            runOnlyForDeploymentPostprocessing = 0;
-        };
+		243D21E0226F5B38005D5921 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B27476F228DA8A500D9AA48 /* Deck.swift in Sources */,
+				243D21EA226F5B38005D5921 /* ViewController.swift in Sources */,
+				2B4B32192280745D0033A4EB /* Points.swift in Sources */,
+				246F8B2722789D8E0022C180 /* Stand.swift in Sources */,
+				243D21E8226F5B38005D5921 /* AppDelegate.swift in Sources */,
+				243D21FA226F61F8005D5921 /* Card .swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-        243D21EB226F5B38005D5921 /* Main.storyboard */ = {
-            isa = PBXVariantGroup;
-            children = (
-                243D21EC226F5B38005D5921 /* Base */,
-            );
-            name = Main.storyboard;
-            sourceTree = "<group>";
-        };
-        243D21F0226F5B3A005D5921 /* LaunchScreen.storyboard */ = {
-            isa = PBXVariantGroup;
-            children = (
-                243D21F1226F5B3A005D5921 /* Base */,
-            );
-            name = LaunchScreen.storyboard;
-            sourceTree = "<group>";
-        };
+		243D21EB226F5B38005D5921 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				243D21EC226F5B38005D5921 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		243D21F0226F5B3A005D5921 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				243D21F1226F5B3A005D5921 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-        243D21F4226F5B3A005D5921 /* Debug */ = {
-            isa = XCBuildConfiguration;
-            buildSettings = {
-                ALWAYS_SEARCH_USER_PATHS = NO;
-                CLANG_ANALYZER_NONNULL = YES;
-                CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-                CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-                CLANG_CXX_LIBRARY = "libc++";
-                CLANG_ENABLE_MODULES = YES;
-                CLANG_ENABLE_OBJC_ARC = YES;
-                CLANG_ENABLE_OBJC_WEAK = YES;
-                CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-                CLANG_WARN_BOOL_CONVERSION = YES;
-                CLANG_WARN_COMMA = YES;
-                CLANG_WARN_CONSTANT_CONVERSION = YES;
-                CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-                CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-                CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-                CLANG_WARN_EMPTY_BODY = YES;
-                CLANG_WARN_ENUM_CONVERSION = YES;
-                CLANG_WARN_INFINITE_RECURSION = YES;
-                CLANG_WARN_INT_CONVERSION = YES;
-                CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-                CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-                CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-                CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-                CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-                CLANG_WARN_STRICT_PROTOTYPES = YES;
-                CLANG_WARN_SUSPICIOUS_MOVE = YES;
-                CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-                CLANG_WARN_UNREACHABLE_CODE = YES;
-                CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-                CODE_SIGN_IDENTITY = "iPhone Developer";
-                COPY_PHASE_STRIP = NO;
-                DEBUG_INFORMATION_FORMAT = dwarf;
-                ENABLE_STRICT_OBJC_MSGSEND = YES;
-                ENABLE_TESTABILITY = YES;
-                GCC_C_LANGUAGE_STANDARD = gnu11;
-                GCC_DYNAMIC_NO_PIC = NO;
-                GCC_NO_COMMON_BLOCKS = YES;
-                GCC_OPTIMIZATION_LEVEL = 0;
-                GCC_PREPROCESSOR_DEFINITIONS = (
-                    "DEBUG=1",
-                    "$(inherited)",
-                );
-                GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-                GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-                GCC_WARN_UNDECLARED_SELECTOR = YES;
-                GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-                GCC_WARN_UNUSED_FUNCTION = YES;
-                GCC_WARN_UNUSED_VARIABLE = YES;
-                IPHONEOS_DEPLOYMENT_TARGET = 12.1;
-                MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
-                MTL_FAST_MATH = YES;
-                ONLY_ACTIVE_ARCH = YES;
-                SDKROOT = iphoneos;
-                SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-                SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-            };
-            name = Debug;
-        };
-        243D21F5226F5B3A005D5921 /* Release */ = {
-            isa = XCBuildConfiguration;
-            buildSettings = {
-                ALWAYS_SEARCH_USER_PATHS = NO;
-                CLANG_ANALYZER_NONNULL = YES;
-                CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-                CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-                CLANG_CXX_LIBRARY = "libc++";
-                CLANG_ENABLE_MODULES = YES;
-                CLANG_ENABLE_OBJC_ARC = YES;
-                CLANG_ENABLE_OBJC_WEAK = YES;
-                CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-                CLANG_WARN_BOOL_CONVERSION = YES;
-                CLANG_WARN_COMMA = YES;
-                CLANG_WARN_CONSTANT_CONVERSION = YES;
-                CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-                CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-                CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-                CLANG_WARN_EMPTY_BODY = YES;
-                CLANG_WARN_ENUM_CONVERSION = YES;
-                CLANG_WARN_INFINITE_RECURSION = YES;
-                CLANG_WARN_INT_CONVERSION = YES;
-                CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-                CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-                CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-                CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-                CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-                CLANG_WARN_STRICT_PROTOTYPES = YES;
-                CLANG_WARN_SUSPICIOUS_MOVE = YES;
-                CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-                CLANG_WARN_UNREACHABLE_CODE = YES;
-                CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-                CODE_SIGN_IDENTITY = "iPhone Developer";
-                COPY_PHASE_STRIP = NO;
-                DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-                ENABLE_NS_ASSERTIONS = NO;
-                ENABLE_STRICT_OBJC_MSGSEND = YES;
-                GCC_C_LANGUAGE_STANDARD = gnu11;
-                GCC_NO_COMMON_BLOCKS = YES;
-                GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-                GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-                GCC_WARN_UNDECLARED_SELECTOR = YES;
-                GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-                GCC_WARN_UNUSED_FUNCTION = YES;
-                GCC_WARN_UNUSED_VARIABLE = YES;
-                IPHONEOS_DEPLOYMENT_TARGET = 12.1;
-                MTL_ENABLE_DEBUG_INFO = NO;
-                MTL_FAST_MATH = YES;
-                SDKROOT = iphoneos;
-                SWIFT_COMPILATION_MODE = wholemodule;
-                SWIFT_OPTIMIZATION_LEVEL = "-O";
-                VALIDATE_PRODUCT = YES;
-            };
-            name = Release;
-        };
-        243D21F7226F5B3A005D5921 /* Debug */ = {
-            isa = XCBuildConfiguration;
-            buildSettings = {
-                ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-                CODE_SIGN_STYLE = Automatic;
-                DEVELOPMENT_TEAM = 9M8Z3RQPXU;
-                INFOPLIST_FILE = "Cross Up Poker/Info.plist";
-                LD_RUNPATH_SEARCH_PATHS = (
-                    "$(inherited)",
-                    "@executable_path/Frameworks",
-                );
-                PRODUCT_BUNDLE_IDENTIFIER = "org.friscoisd.Cross-Up-Poker";
-                PRODUCT_NAME = "$(TARGET_NAME)";
-                SWIFT_VERSION = 4.2;
-                TARGETED_DEVICE_FAMILY = "1,2";
-            };
-            name = Debug;
-        };
-        243D21F8226F5B3A005D5921 /* Release */ = {
-            isa = XCBuildConfiguration;
-            buildSettings = {
-                ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-                CODE_SIGN_STYLE = Automatic;
-                DEVELOPMENT_TEAM = 9M8Z3RQPXU;
-                INFOPLIST_FILE = "Cross Up Poker/Info.plist";
-                LD_RUNPATH_SEARCH_PATHS = (
-                    "$(inherited)",
-                    "@executable_path/Frameworks",
-                );
-                PRODUCT_BUNDLE_IDENTIFIER = "org.friscoisd.Cross-Up-Poker";
-                PRODUCT_NAME = "$(TARGET_NAME)";
-                SWIFT_VERSION = 4.2;
-                TARGETED_DEVICE_FAMILY = "1,2";
-            };
-            name = Release;
-        };
+		243D21F4226F5B3A005D5921 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		243D21F5226F5B3A005D5921 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		243D21F7226F5B3A005D5921 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9M8Z3RQPXU;
+				INFOPLIST_FILE = "Cross Up Poker/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.friscoisd.Cross-Up-Poker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		243D21F8226F5B3A005D5921 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9M8Z3RQPXU;
+				INFOPLIST_FILE = "Cross Up Poker/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.friscoisd.Cross-Up-Poker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-        243D21DF226F5B38005D5921 /* Build configuration list for PBXProject "Cross Up Poker" */ = {
-            isa = XCConfigurationList;
-            buildConfigurations = (
-                243D21F4226F5B3A005D5921 /* Debug */,
-                243D21F5226F5B3A005D5921 /* Release */,
-            );
-            defaultConfigurationIsVisible = 0;
-            defaultConfigurationName = Release;
-        };
-        243D21F6226F5B3A005D5921 /* Build configuration list for PBXNativeTarget "Cross Up Poker" */ = {
-            isa = XCConfigurationList;
-            buildConfigurations = (
-                243D21F7226F5B3A005D5921 /* Debug */,
-                243D21F8226F5B3A005D5921 /* Release */,
-            );
-            defaultConfigurationIsVisible = 0;
-            defaultConfigurationName = Release;
-        };
+		243D21DF226F5B38005D5921 /* Build configuration list for PBXProject "Cross Up Poker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				243D21F4226F5B3A005D5921 /* Debug */,
+				243D21F5226F5B3A005D5921 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		243D21F6226F5B3A005D5921 /* Build configuration list for PBXNativeTarget "Cross Up Poker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				243D21F7226F5B3A005D5921 /* Debug */,
+				243D21F8226F5B3A005D5921 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
-    };
-    rootObject = 243D21DC226F5B38005D5921 /* Project object */;
+	};
+	rootObject = 243D21DC226F5B38005D5921 /* Project object */;
 }

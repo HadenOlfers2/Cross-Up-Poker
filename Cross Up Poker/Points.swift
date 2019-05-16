@@ -69,7 +69,7 @@ class Points
             return 9
         }
         
-        var sortedValues: [Int] = sortHand(cards: cards, values: values)
+        let sortedValues: [Int] = sortHand(cards: cards, values: values)
         
         //Hand is a straight flush
         if (sameSuits && isConsecutive(values: sortedValues))

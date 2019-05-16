@@ -8,21 +8,18 @@
 
 import Foundation
 
-class CPU
+func getCpuHand() -> Int
 {
-    func getCpuHand() -> Int
+    let cpuDeck = Deck()
+    var cpuHand: [[Card]] = [[]]
+    for _ in 0...4
     {
-        let cpuDeck = Deck()
-        var cpuHand: [[Card]]
-        for i in 0...4
+        var row: [Card] = []
+        for _ in 0...4
         {
-            var row: [Card] = []
-            for j in 0...4
-            {
-                row.append(cpuDeck.remove()!)
-            }
-            cpuHand.append(row)
+            row.append(cpuDeck.remove()!)
         }
-        return getPoints(cards: cpuHand)
+        cpuHand.append(row)
     }
+    return getPoints(cards: cpuHand)
 }

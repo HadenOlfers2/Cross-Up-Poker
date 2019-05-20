@@ -93,7 +93,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        //shuffleCards()
+        var deck = Deck() //Will build a deck and shuffle it
     }
     
 }

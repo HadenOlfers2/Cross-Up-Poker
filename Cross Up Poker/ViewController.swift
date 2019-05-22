@@ -105,53 +105,53 @@ class ViewController: UIViewController
         if (sender == OneSix && userHands[0][0].value == -1)
         {
             userHands[0][0] = card
-            //ImageCard16.image = cardImage
+            ImageCard16.image = cardImage
         }
         else if (sender == OneSeven && userHands[0][1].value == -1)
         {
             userHands[0][1] = card
-            //ImageCard17.image = cardImage
+            ImageCard17.image = cardImage
         }
         else if (sender == OneEight && userHands[0][2].value == -1)
         {
             userHands[0][2] = card
-            //ImageCard18.image = cardImage
+            ImageCard18.image = cardImage
         }
         else if (sender == OneNine && userHands[0][3].value == -1)
         {
             userHands[0][3] = card
-            //ImageCard19.image = cardImage
+            ImageCard19.image = cardImage
         }
         else if (sender == OneTen && userHands[0][4].value == -1)
         {
             userHands[0][4] = card
-            //ImageCard110.image = cardImage
+            ImageCard110.image = cardImage
         }
             
         else if (sender == TwoSix && userHands[1][0].value == -1)
         {
             userHands[1][0] = card
-            //ImageCard26.image = cardImage
+            ImageCard26.image = cardImage
         }
         else if (sender == TwoSeven && userHands[1][1].value == -1)
         {
             userHands[1][1] = card
-            //ImageCard27.image = cardImage
+            ImageCard27.image = cardImage
         }
         else if (sender == TwoEight && userHands[1][2].value == -1)
         {
             userHands[1][2] = card
-            //ImageCard28.image = cardImage
+            ImageCard28.image = cardImage
         }
         else if (sender == TwoNine && userHands[1][3].value == -1)
         {
             userHands[1][3] = card
-            //ImageCard29.image = cardImage
+            ImageCard29.image = cardImage
         }
         else if (sender == TwoTen && userHands[1][4].value == -1)
         {
             userHands[1][4] = card
-            //ImageCard210.image = cardImage
+            ImageCard210.image = cardImage
         }
         
         else if (sender == ThreeSix && userHands[2][0].value == -1)
@@ -162,74 +162,74 @@ class ViewController: UIViewController
         else if (sender == ThreeSeven && userHands[2][1].value == -1)
         {
             userHands[2][1] = card
-            //ImageCard37.image = cardImage
+            ImageCard37.image = cardImage
         }
         else if (sender == ThreeEight && userHands[2][2].value == -1)
         {
             userHands[2][2] = card
-            //ImageCard38.image = cardImage
+            ImageCard38.image = cardImage
         }
         else if (sender == ThreeNine && userHands[2][3].value == -1)
         {
             userHands[2][3] = card
-            //ImageCard39.image = cardImage
+            ImageCard39.image = cardImage
         }
         else if (sender == ThreeTen && userHands[2][4].value == -1)
         {
             userHands[2][4] = card
-            //ImageCard310.image = cardImage
+            ImageCard310.image = cardImage
         }
             
         else if (sender == FourSix && userHands[3][0].value == -1)
         {
             userHands[3][0] = card
-            //ImageCard46.image = cardImage
+            ImageCard46.image = cardImage
         }
         else if (sender == FourSeven && userHands[3][1].value == -1)
         {
             userHands[3][1] = card
-            //ImageCard47.image = cardImage
+            ImageCard47.image = cardImage
         }
         else if (sender == FourEight && userHands[3][2].value == -1)
         {
             userHands[3][2] = card
-            //ImageCard48.image = cardImage
+            ImageCard48.image = cardImage
         }
         else if (sender == FourNine && userHands[3][3].value == -1)
         {
             userHands[3][3] = card
-            //ImageCard49.image = cardImage
+            ImageCard49.image = cardImage
         }
         else if (sender == FourTen && userHands[3][4].value == -1)
         {
             userHands[3][4] = card
-            //ImageCard410.image = cardImage
+            ImageCard410.image = cardImage
         }
             
         else if (sender == FiveSix && userHands[4][0].value == -1)
         {
             userHands[4][0] = card
-            //ImageCard56.image = cardImage
+            ImageCard56.image = cardImage
         }
         else if (sender == FiveSeven && userHands[4][1].value == -1)
         {
             userHands[4][1] = card
-            //ImageCard57.image = cardImage
+            ImageCard57.image = cardImage
         }
         else if (sender == FiveEight && userHands[4][2].value == -1)
         {
             userHands[4][2] = card
-            //ImageCard58.image = cardImage
+            ImageCard58.image = cardImage
         }
         else if (sender == FiveNine && userHands[4][3].value == -1)
         {
             userHands[4][3] = card
-            //ImageCard59.image = cardImage
+            ImageCard59.image = cardImage
         }
         else if (sender == FiveTen && userHands[4][4].value == -1)
         {
             userHands[4][4] = card
-            //ImageCard510.image = cardImage
+            ImageCard510.image = cardImage
         }
             
         else

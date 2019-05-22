@@ -36,6 +36,32 @@ class ViewController: UIViewController
     @IBOutlet weak var FiveNine: UIButton!
     @IBOutlet weak var FiveTen: UIButton!
 
+    @IBOutlet weak var ImageCard16: UIImageView!
+    @IBOutlet weak var ImageCard17: UIImageView!
+    @IBOutlet weak var ImageCard18: UIImageView!
+    @IBOutlet weak var ImageCard19: UIImageView!
+    @IBOutlet weak var ImageCard110: UIImageView!
+    @IBOutlet weak var ImageCard26: UIImageView!
+    @IBOutlet weak var ImageCard27: UIImageView!
+    @IBOutlet weak var ImageCard28: UIImageView!
+    @IBOutlet weak var ImageCard29: UIImageView!
+    @IBOutlet weak var ImageCard210: UIImageView!
+    @IBOutlet weak var ImageCard36: UIImageView!
+    @IBOutlet weak var ImageCard37: UIImageView!
+    @IBOutlet weak var ImageCard38: UIImageView!
+    @IBOutlet weak var ImageCard39: UIImageView!
+    @IBOutlet weak var ImageCard310: UIImageView!
+    @IBOutlet weak var ImageCard46: UIImageView!
+    @IBOutlet weak var ImageCard47: UIImageView!
+    @IBOutlet weak var ImageCard48: UIImageView!
+    @IBOutlet weak var ImageCard49: UIImageView!
+    @IBOutlet weak var ImageCard410: UIImageView!
+    @IBOutlet weak var ImageCard56: UIImageView!
+    @IBOutlet weak var ImageCard57: UIImageView!
+    @IBOutlet weak var ImageCard58: UIImageView!
+    @IBOutlet weak var ImageCard59: UIImageView!
+    @IBOutlet weak var ImageCard510: UIImageView!
+    
     @IBOutlet var currentCard: UIImageView!
     
     //Placeholder values

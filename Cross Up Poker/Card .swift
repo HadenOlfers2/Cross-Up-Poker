@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-struct Card: Equatable, CustomStringConvertible
+struct Card: Equatable//, CustomStringConvertible
 {
     var Img: UIImage?
     let suit: Suit
@@ -20,10 +20,10 @@ struct Card: Equatable, CustomStringConvertible
         return (lhs.suit == rhs.suit) && (lhs.value == rhs.value)
     }
     
-    public var description: String
-    {
-        return String(value)
-    }
+    //public var description: String
+    //{
+    //    return String(value)
+    //}
 }
 
 enum Suit

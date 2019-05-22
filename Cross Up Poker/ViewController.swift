@@ -36,11 +36,12 @@ class ViewController: UIViewController
     @IBOutlet weak var FiveNine: UIButton!
     @IBOutlet weak var FiveTen: UIButton!
 
-    @IBOutlet var currentCard: UIImageView!
+    @IBOutlet weak var currentCard: UIImageView!
     
     //Placeholder values
     var card: Card = Card(Img: UIImage(), suit: .clubs, value: 0)
     var deck: Deck = Deck()
+    var cardImage: UIImage?
     var userHands: [[Card]] = []
     
     override func viewDidLoad()
@@ -61,10 +62,11 @@ class ViewController: UIViewController
             }
             userHands.append(temp)
         }
+        
         card = deck.remove()
-        let cardImage = card.Img
+        print(card)
+        cardImage = card.Img
         //currentCard.image = cardImage!
-        print("set up")
     }
     
     @IBAction func placeCard(_ sender: UIButton)
@@ -190,10 +192,9 @@ class ViewController: UIViewController
         else if (invalidMove == false)
         {
             card = deck.remove()
-            let cardImage = card.Img
+            cardImage = card.Img
             currentCard.image = cardImage!
         }
-        else {print ("invalid")}
     }
     
     //When deck's card array size is 26 (25 cards have been placed), idk

@@ -14,7 +14,7 @@ class Deck
     var deck: [Card]
     init()
     {
-        deck = []
+        deck = [Card]()
         let numStrings = ["Ace", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten", "Jack", "Queen", "King"]
         for i in 1...13
         {

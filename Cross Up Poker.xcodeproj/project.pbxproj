@@ -13,7 +13,6 @@
 		243D21EF226F5B3A005D5921 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 243D21EE226F5B3A005D5921 /* Assets.xcassets */; };
 		243D21F2226F5B3A005D5921 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 243D21F0226F5B3A005D5921 /* LaunchScreen.storyboard */; };
 		243D21FA226F61F8005D5921 /* Card .swift in Sources */ = {isa = PBXBuildFile; fileRef = 243D21F9226F61F8005D5921 /* Card .swift */; };
-		246F8B2722789D8E0022C180 /* Stand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246F8B2622789D8E0022C180 /* Stand.swift */; };
 		2B27476F228DA8A500D9AA48 /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B27476E228DA8A500D9AA48 /* Deck.swift */; };
 		2B274771228DAEEB00D9AA48 /* CPU.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B274770228DAEEB00D9AA48 /* CPU.swift */; };
 		2B4B32192280745D0033A4EB /* Points.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4B32182280745D0033A4EB /* Points.swift */; };
@@ -28,7 +27,6 @@
 		243D21F1226F5B3A005D5921 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		243D21F3226F5B3A005D5921 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		243D21F9226F61F8005D5921 /* Card .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Card .swift"; sourceTree = "<group>"; };
-		246F8B2622789D8E0022C180 /* Stand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stand.swift; sourceTree = "<group>"; };
 		2B27476E228DA8A500D9AA48 /* Deck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deck.swift; sourceTree = "<group>"; };
 		2B274770228DAEEB00D9AA48 /* CPU.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CPU.swift; sourceTree = "<group>"; };
 		2B4B32182280745D0033A4EB /* Points.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Points.swift; sourceTree = "<group>"; };
@@ -82,7 +80,6 @@
 		2B27476D228DA0E900D9AA48 /* Recovered References */ = {
 			isa = PBXGroup;
 			children = (
-				246F8B2622789D8E0022C180 /* Stand.swift */,
 			);
 			name = "Recovered References";
 			sourceTree = "<group>";
@@ -162,7 +159,6 @@
 				243D21EA226F5B38005D5921 /* ViewController.swift in Sources */,
 				2B274771228DAEEB00D9AA48 /* CPU.swift in Sources */,
 				2B4B32192280745D0033A4EB /* Points.swift in Sources */,
-				246F8B2722789D8E0022C180 /* Stand.swift in Sources */,
 				243D21E8226F5B38005D5921 /* AppDelegate.swift in Sources */,
 				243D21FA226F61F8005D5921 /* Card .swift in Sources */,
 			);
@@ -311,7 +307,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9M8Z3RQPXU;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Cross Up Poker/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -329,7 +325,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9M8Z3RQPXU;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Cross Up Poker/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

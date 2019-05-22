@@ -8,61 +8,8 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
-    @IBOutlet weak var Twoclubs: UIImageView!
-    @IBOutlet weak var Twodiamonds: UIImageView!
-    @IBOutlet weak var Twohearts: UIImageView!
-    @IBOutlet weak var Twospades: UIImageView!
-    @IBOutlet weak var Threeclubs: UIImageView!
-    @IBOutlet weak var Threediamonds: UIImageView!
-    @IBOutlet weak var Threehearts: UIImageView!
-    @IBOutlet weak var Threespades: UIImageView!
-    @IBOutlet weak var Fourclubs: UIImageView!
-    @IBOutlet weak var Fourdiamonds: UIImageView!
-    @IBOutlet weak var Fourhearts: UIImageView!
-    @IBOutlet weak var Fourspades: UIImageView!
-    @IBOutlet weak var Fiveclubs: UIImageView!
-    @IBOutlet weak var Fivediamonds: UIImageView!
-    @IBOutlet weak var Fivehearts: UIImageView!
-    @IBOutlet weak var Fivespades: UIImageView!
-    @IBOutlet weak var Sixclubs: UIImageView!
-    @IBOutlet weak var Sixdiamonds: UIImageView!
-    @IBOutlet weak var Sixhearts: UIImageView!
-    @IBOutlet weak var Sixspades: UIImageView!
-    @IBOutlet weak var Sevenclubs: UIImageView!
-    @IBOutlet weak var Sevendiamonds: UIImageView!
-    @IBOutlet weak var Sevenhearts: UIImageView!
-    @IBOutlet weak var Sevenspades: UIImageView!
-    @IBOutlet weak var Eightclubs: UIImageView!
-    @IBOutlet weak var Eightdiamonds: UIImageView!
-    @IBOutlet weak var Eighthearts: UIImageView!
-    @IBOutlet weak var Eightspades: UIImageView!
-    @IBOutlet weak var Nineclubs: UIImageView!
-    @IBOutlet weak var Ninediamonds: UIImageView!
-    @IBOutlet weak var Ninehearts: UIImageView!
-    @IBOutlet weak var Ninespades: UIImageView!
-    @IBOutlet weak var Tenclubs: UIImageView!
-    @IBOutlet weak var Tendiamonds: UIImageView!
-    @IBOutlet weak var Tenhearts: UIImageView!
-    @IBOutlet weak var Tenspades: UIImageView!
-    @IBOutlet weak var Jackclubs: UIImageView!
-    @IBOutlet weak var Jackdiamonds: UIImageView!
-    @IBOutlet weak var Jackhearts: UIImageView!
-    @IBOutlet weak var Jackspades: UIImageView!
-    @IBOutlet weak var Queenclubs: UIImageView!
-    @IBOutlet weak var Queendiamonds: UIImageView!
-    @IBOutlet weak var Queenhearts: UIImageView!
-    @IBOutlet weak var Queenspades: UIImageView!
-    @IBOutlet weak var Kingclubs: UIImageView!
-    @IBOutlet weak var Kingdiamonds: UIImageView!
-    @IBOutlet weak var Kinghearts: UIImageView!
-    @IBOutlet weak var Kingspades: UIImageView!
-    @IBOutlet weak var Aceclubs: UIImageView!
-    @IBOutlet weak var Acediamonds: UIImageView!
-    @IBOutlet weak var Acehearts: UIImageView!
-    @IBOutlet weak var Acespades: UIImageView!
-    
+class ViewController: UIViewController
+{
     @IBOutlet weak var OneSix: UIButton!
     @IBOutlet weak var OneSeven: UIButton!
     @IBOutlet weak var OneEight: UIButton!
@@ -89,11 +36,179 @@ class ViewController: UIViewController {
     @IBOutlet weak var FiveNine: UIButton!
     @IBOutlet weak var FiveTen: UIButton!
 
+    @IBOutlet var currentCard: UIImageView!
     
+    //Placeholder values
+    var card: Card = Card(Img: UIImage(), suit: .clubs, value: 0)
+    var deck: Deck = Deck()
+    var userHands: [[Card]] = []
     
-    override func viewDidLoad() {
+    override func viewDidLoad()
+    {
         super.viewDidLoad()
-        var deck = Deck() //Will build a deck and shuffle it
+        setupGame()
     }
     
+    func setupGame()
+    {
+        //deck = Deck()
+        for i in 0...4
+        {
+            var temp: [Card] = []
+            for j in 0...4
+            {
+                temp.append(Card(Img: nil, suit: .clubs, value: -1))
+            }
+            userHands.append(temp)
+        }
+        card = deck.remove()
+        let cardImage = card.Img
+        //currentCard.image = cardImage!
+        print("set up")
+    }
+    
+    @IBAction func placeCard(_ sender: UIButton)
+    {
+        var invalidMove = false
+        //A ton of ifs
+        
+        if (sender == OneSix && userHands[0][0].value == -1)
+        {
+            userHands[0][0] = card
+        }
+        else if (sender == OneSeven && userHands[0][1].value == -1)
+        {
+            userHands[0][1] = card
+        }
+        else if (sender == OneEight && userHands[0][2].value == -1)
+        {
+            userHands[0][2] = card
+        }
+        else if (sender == OneNine && userHands[0][3].value == -1)
+        {
+            userHands[0][3] = card
+        }
+        else if (sender == OneTen && userHands[0][4].value == -1)
+        {
+            userHands[0][4] = card
+        }
+            
+        else if (sender == TwoSix && userHands[1][0].value == -1)
+        {
+            userHands[1][0] = card
+        }
+        else if (sender == TwoSeven && userHands[1][1].value == -1)
+        {
+            userHands[1][1] = card
+        }
+        else if (sender == TwoEight && userHands[1][2].value == -1)
+        {
+            userHands[1][2] = card
+        }
+        else if (sender == TwoNine && userHands[1][3].value == -1)
+        {
+            userHands[1][3] = card
+        }
+        else if (sender == TwoTen && userHands[1][4].value == -1)
+        {
+            userHands[1][4] = card
+        }
+        
+        else if (sender == ThreeSix && userHands[2][0].value == -1)
+        {
+            userHands[2][0] = card
+        }
+        else if (sender == ThreeSeven && userHands[2][1].value == -1)
+        {
+            userHands[2][1] = card
+        }
+        else if (sender == ThreeEight && userHands[2][2].value == -1)
+        {
+            userHands[2][2] = card
+        }
+        else if (sender == ThreeNine && userHands[2][3].value == -1)
+        {
+            userHands[2][3] = card
+        }
+        else if (sender == ThreeTen && userHands[2][4].value == -1)
+        {
+            userHands[2][4] = card
+        }
+            
+        else if (sender == FourSix && userHands[3][0].value == -1)
+        {
+            userHands[3][0] = card
+        }
+        else if (sender == FourSeven && userHands[3][1].value == -1)
+        {
+            userHands[3][1] = card
+        }
+        else if (sender == FourEight && userHands[3][2].value == -1)
+        {
+            userHands[3][2] = card
+        }
+        else if (sender == FourNine && userHands[3][3].value == -1)
+        {
+            userHands[3][3] = card
+        }
+        else if (sender == FourTen && userHands[3][4].value == -1)
+        {
+            userHands[3][4] = card
+        }
+            
+        else if (sender == FiveSix && userHands[4][0].value == -1)
+        {
+            userHands[4][0] = card
+        }
+        else if (sender == FiveSeven && userHands[4][1].value == -1)
+        {
+            userHands[4][1] = card
+        }
+        else if (sender == FiveEight && userHands[4][2].value == -1)
+        {
+            userHands[4][2] = card
+        }
+        else if (sender == FiveNine && userHands[4][3].value == -1)
+        {
+            userHands[4][3] = card
+        }
+        else if (sender == FiveTen && userHands[4][4].value == -1)
+        {
+            userHands[4][4] = card
+        }
+            
+        else
+        {
+            invalidMove = true //User tried to overwrite a card
+        }
+        
+        if (deck.deck.count == 27)
+        {
+            concludeGame()
+        }
+        
+        else if (invalidMove == false)
+        {
+            card = deck.remove()
+            let cardImage = card.Img
+            currentCard.image = cardImage!
+        }
+        else {print ("invalid")}
+    }
+    
+    //When deck's card array size is 26 (25 cards have been placed), idk
+    func concludeGame()
+    {
+        let playerPoints = getPoints(cards: userHands)
+        let cpuPoints = getCpuHand(deck: deck) //error
+        
+        if (playerPoints < cpuPoints)
+        {
+            print("loser")
+        }
+        else if (playerPoints >= cpuPoints)
+        {
+            print("winner")
+        }
+    }
 }

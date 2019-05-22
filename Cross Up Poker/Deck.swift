@@ -18,22 +18,22 @@ class Deck
         let numStrings = ["Ace", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten", "Jack", "Queen", "King"]
         for i in 1...13
         {
-            deck.append(Card(Img: UIImage.self(named: numStrings[i-1] + "clubs"), suit: .clubs, value: i))
+            deck.append(Card(Img: UIImage.self(named: numStrings[i-1] + "clubs")!, suit: .clubs, value: i))
         }
         
         for i in 1...13
         {
-            deck.append(Card(Img: UIImage.self(named: numStrings[i-1] + "spades"), suit: .spades, value: i))
+            deck.append(Card(Img: UIImage.self(named: numStrings[i-1] + "spades")!, suit: .spades, value: i))
         }
         
         for i in 1...13
         {
-            deck.append(Card(Img: UIImage.self(named: numStrings[i-1] + "hearts"), suit: .hearts, value: i))
+            deck.append(Card(Img: UIImage.self(named: numStrings[i-1] + "hearts")!, suit: .hearts, value: i))
         }
         
         for i in 1...13
         {
-            deck.append(Card(Img: UIImage.self(named: numStrings[i-1] + "diamonds"), suit: .diamonds, value: i))
+            deck.append(Card(Img: UIImage.self(named: numStrings[i-1] + "diamonds")!, suit: .diamonds, value: i))
         }
         for i in 0...deck.count-1
         {
@@ -44,12 +44,8 @@ class Deck
         }
     }
     
-    func remove() -> Card?
+    func remove() -> Card
     {
-        if (deck.count >= 1)
-        {
-            return deck.remove(at: 0)
-        }
-        return nil
+        return deck.remove(at: 0)
     }
 }

@@ -10,15 +10,16 @@ import Foundation
 
 func getCpuHand(deck: Deck) -> Int
 {
-    var cpuHand: [[Card]] = [[]]
-    for _ in 0...4
+    var cpuHand: [[Card]] = [[Card]]()
+    for i in 0...4
     {
         var row: [Card] = []
         for _ in 0...4
         {
-            row.append(deck.remove()!)
+            row.append(deck.remove())
         }
         cpuHand.append(row)
+        print("\(cpuHand[i]) \(i)")
     }
     return getPoints(cards: cpuHand)
 }

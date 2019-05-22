@@ -62,12 +62,16 @@ class ViewController: UIViewController
     @IBOutlet weak var ImageCard59: UIImageView!
     @IBOutlet weak var ImageCard510: UIImageView!
     
+    @IBOutlet weak var winnerOrLoser: UILabel!
+    
     @IBOutlet var currentCard: UIImageView!
+    
+    var cardImage: UIImage?
     
     //Placeholder values
     var card: Card = Card(Img: UIImage(), suit: .clubs, value: 0)
     var deck: Deck = Deck()
-    var userHands: [[Card]] = []
+    var userHands: [[Card]] = [[Card]]()
     
     override func viewDidLoad()
     {
@@ -78,10 +82,10 @@ class ViewController: UIViewController
     func setupGame()
     {
         //deck = Deck()
-        for i in 0...4
+        for _ in 0...4
         {
             var temp: [Card] = []
-            for j in 0...4
+            for _ in 0...4
             {
                 temp.append(Card(Img: nil, suit: .clubs, value: -1))
             }
@@ -91,7 +95,6 @@ class ViewController: UIViewController
         card = deck.remove()
         print(card)
         cardImage = card.Img
-        //currentCard.image = cardImage!
     }
     
     @IBAction func placeCard(_ sender: UIButton)
@@ -102,106 +105,131 @@ class ViewController: UIViewController
         if (sender == OneSix && userHands[0][0].value == -1)
         {
             userHands[0][0] = card
+            //ImageCard16.image = cardImage
         }
         else if (sender == OneSeven && userHands[0][1].value == -1)
         {
             userHands[0][1] = card
+            //ImageCard17.image = cardImage
         }
         else if (sender == OneEight && userHands[0][2].value == -1)
         {
             userHands[0][2] = card
+            //ImageCard18.image = cardImage
         }
         else if (sender == OneNine && userHands[0][3].value == -1)
         {
             userHands[0][3] = card
+            //ImageCard19.image = cardImage
         }
         else if (sender == OneTen && userHands[0][4].value == -1)
         {
             userHands[0][4] = card
+            //ImageCard110.image = cardImage
         }
             
         else if (sender == TwoSix && userHands[1][0].value == -1)
         {
             userHands[1][0] = card
+            //ImageCard26.image = cardImage
         }
         else if (sender == TwoSeven && userHands[1][1].value == -1)
         {
             userHands[1][1] = card
+            //ImageCard27.image = cardImage
         }
         else if (sender == TwoEight && userHands[1][2].value == -1)
         {
             userHands[1][2] = card
+            //ImageCard28.image = cardImage
         }
         else if (sender == TwoNine && userHands[1][3].value == -1)
         {
             userHands[1][3] = card
+            //ImageCard29.image = cardImage
         }
         else if (sender == TwoTen && userHands[1][4].value == -1)
         {
             userHands[1][4] = card
+            //ImageCard210.image = cardImage
         }
         
         else if (sender == ThreeSix && userHands[2][0].value == -1)
         {
             userHands[2][0] = card
+            ImageCard36.image = cardImage
         }
         else if (sender == ThreeSeven && userHands[2][1].value == -1)
         {
             userHands[2][1] = card
+            //ImageCard37.image = cardImage
         }
         else if (sender == ThreeEight && userHands[2][2].value == -1)
         {
             userHands[2][2] = card
+            //ImageCard38.image = cardImage
         }
         else if (sender == ThreeNine && userHands[2][3].value == -1)
         {
             userHands[2][3] = card
+            //ImageCard39.image = cardImage
         }
         else if (sender == ThreeTen && userHands[2][4].value == -1)
         {
             userHands[2][4] = card
+            //ImageCard310.image = cardImage
         }
             
         else if (sender == FourSix && userHands[3][0].value == -1)
         {
             userHands[3][0] = card
+            //ImageCard46.image = cardImage
         }
         else if (sender == FourSeven && userHands[3][1].value == -1)
         {
             userHands[3][1] = card
+            //ImageCard47.image = cardImage
         }
         else if (sender == FourEight && userHands[3][2].value == -1)
         {
             userHands[3][2] = card
+            //ImageCard48.image = cardImage
         }
         else if (sender == FourNine && userHands[3][3].value == -1)
         {
             userHands[3][3] = card
+            //ImageCard49.image = cardImage
         }
         else if (sender == FourTen && userHands[3][4].value == -1)
         {
             userHands[3][4] = card
+            //ImageCard410.image = cardImage
         }
             
         else if (sender == FiveSix && userHands[4][0].value == -1)
         {
             userHands[4][0] = card
+            //ImageCard56.image = cardImage
         }
         else if (sender == FiveSeven && userHands[4][1].value == -1)
         {
             userHands[4][1] = card
+            //ImageCard57.image = cardImage
         }
         else if (sender == FiveEight && userHands[4][2].value == -1)
         {
             userHands[4][2] = card
+            //ImageCard58.image = cardImage
         }
         else if (sender == FiveNine && userHands[4][3].value == -1)
         {
             userHands[4][3] = card
+            //ImageCard59.image = cardImage
         }
         else if (sender == FiveTen && userHands[4][4].value == -1)
         {
             userHands[4][4] = card
+            //ImageCard510.image = cardImage
         }
             
         else
@@ -230,11 +258,11 @@ class ViewController: UIViewController
         
         if (playerPoints < cpuPoints)
         {
-            print("loser")
+            winnerOrLoser.text = "Loser... You: \(playerPoints) points | CPU: \(cpuPoints) points"
         }
         else if (playerPoints >= cpuPoints)
         {
-            print("winner")
+            winnerOrLoser.text = "Winner! You: \(playerPoints) points | CPU: \(cpuPoints) points"
         }
     }
 }

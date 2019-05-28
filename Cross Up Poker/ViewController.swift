@@ -63,6 +63,8 @@ class ViewController: UIViewController
     @IBOutlet weak var ImageCard510: UIImageView!
     
     @IBOutlet weak var winnerOrLoser: UILabel!
+    @IBOutlet weak var HighScore: UILabel!
+    
     
     @IBOutlet var currentCard: UIImageView!
     
@@ -72,12 +74,21 @@ class ViewController: UIViewController
     var card: Card = Card(Img: UIImage(), suit: .clubs, value: 0)
     var deck: Deck = Deck()
     var userHands: [[Card]] = [[Card]]()
+
+    var Score = 0
+    var highscore = 0
+    let scoreKey = "scoreKey"
     
     override func viewDidLoad()
     {
         super.viewDidLoad()
+        let defaults = UserDefaults.standard
+        highscore = defaults.integer(forKey: scoreKey)
+        HighScore?.text = "High Score: \(highscore) points"
+        
         setupGame()
     }
+    
     
     func setupGame()
     {
@@ -91,7 +102,6 @@ class ViewController: UIViewController
             }
             userHands.append(temp)
         }
-        
         card = deck.remove()
         print(card)
         cardImage = card.Img
@@ -240,6 +250,7 @@ class ViewController: UIViewController
         if (deck.deck.count == 27)
         {
             concludeGame()
+
         }
         
         else if (invalidMove == false)
@@ -255,14 +266,24 @@ class ViewController: UIViewController
     {
         let playerPoints = getPoints(cards: userHands)
         let cpuPoints = getCpuHand(deck: deck) //error
+        Score = playerPoints
         
-        if (playerPoints < cpuPoints)
+        if (playerPoints <= cpuPoints + 20)
         {
-            winnerOrLoser.text = "Loser... You: \(playerPoints) points | CPU: \(cpuPoints) points"
+            winnerOrLoser.text = "Loser...  You: \(playerPoints) points CPU: \(cpuPoints + 20) points"
         }
-        else if (playerPoints >= cpuPoints)
+        else if (playerPoints > cpuPoints + 20)
         {
-            winnerOrLoser.text = "Winner! You: \(playerPoints) points | CPU: \(cpuPoints) points"
+            winnerOrLoser.text = "Winner!  You: \(playerPoints) points CPU: \(cpuPoints + 20) points"
         }
+    
+        if Score > highscore {
+            highscore = Score          // That is the new highScore
+            let defaults = UserDefaults.standard
+            defaults.set(highscore, forKey: scoreKey)
+            HighScore?.text = "High Score: \(highscore)"
+        }
+        
     }
+ 
 }

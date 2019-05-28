@@ -63,7 +63,7 @@ func getHandValue(cards: [Card]) -> Int
     if (values.contains(1) && values.contains(13) && values.contains(12) && values.contains(11) && values.contains(10) &&
         sameSuits)
     {
-        return 9
+        return 30
     }
     
     let sortedValues: [Int] = sortHand(cards: cards, values: values)
@@ -71,50 +71,50 @@ func getHandValue(cards: [Card]) -> Int
     //Hand is a straight flush
     if (sameSuits && isConsecutive(values: sortedValues))
     {
-        return 8
+        return 19
     }
     
     //Hand is a four of a kind. This is where we evaluate identicalCards
     identicalCards = getIdenticalCards(values: values)
     if (identicalCards == 4)
     {
-        return 7
+        return 8
     }
     
     //Hand is a full house. Can be identified if there are only 2 unique values and there is a three of a kind
     if (getNumUnique(values:values) == 2 && identicalCards == 3)
     {
-        return 6
+        return 7
     }
     
     //Hand is a flush
     if (sameSuits)
     {
-        return 5
+        return 6
     }
     
     //Hand is a straight
     if (isConsecutive(values: sortedValues))
     {
-        return 4
+        return 5
     }
     
     //Hand is a three of a kind
     if (identicalCards == 3)
     {
-        return 3
+        return 4
     }
     
     //Hand is a two pair
     if (identicalCards == 2 && getNumUnique(values: values) == 3)
     {
-        return 2
+        return 3
     }
     
     //Hand is a pair
     if (identicalCards == 2)
     {
-        return 1
+        return 2
     }
     
     //Hand is a high card
